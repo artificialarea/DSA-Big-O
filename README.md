@@ -2,7 +2,8 @@
 
 Data Structures & Algorithms, per: https://courses.thinkful.com/dsa-v1/checkpoint/3#assignment
 
-Big O Cheet Sheet: https://tf-assets-prod.s3.amazonaws.com/tf-curric/data-science/Thinksheet-BigO.pdf
+Big-O Cheet Sheet: https://tf-assets-prod.s3.amazonaws.com/tf-curric/data-science/Thinksheet-BigO.pdf
+
 To run any of these scripts, in terminal command line enter: `node script-name.js`
 
 
@@ -17,7 +18,7 @@ To run any of these scripts, in terminal command line enter: `node script-name.j
 Aside: [Big-O Classifications chart](https://github.com/mariusbanea/web-developers-toolkit/blob/master/algorithms/big-o-notation/big-o-notation-table-for-interviews.pdf)
 
 Chart: the different runtime complexities with relation to their input sizes...
-![Big O](./big_o.png)
+![Big-O](./big_o.png)
 
 
 Table: the number of operations required by different time complexities with inputs of size 10, 100, and 1000...
