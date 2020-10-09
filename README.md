@@ -8,6 +8,18 @@ Big-O Cheet Sheet: https://tf-assets-prod.s3.amazonaws.com/tf-curric/data-scienc
 
 To run any of these scripts, in terminal command line enter: `node script-name.js`
 
+## Some tips from Juan...
+
+**Time Complexity Analysis approach:**
+1. Number of expressions, line-by-line, considered in isolation from other lines of code.
+2. Math expression, simplify it
+3. Replace numbers for constants (and constants are just 1)
+4. Identify the fastest growing term, typically some form of `n`
+5. Remove the constants from the fastest growing term
+6. Express this in Big O notation
+
+
+<br /> 
 
 ## 1. What is the Big O for this?
 
@@ -68,7 +80,7 @@ To run any of these scripts, in terminal command line enter: `node script-name.j
 
 ## 8. An efficient search
 
-**O(log n). Logarithmic time.** Every iteration of the operation of search cuts the array in half, which is a characteristic of logarithmic algorithms. Conversely, every time you double `n`, the runtime only increases by one step. This is also referred to as a 'Binary Search', I believe.
+**O(log n). Logarithmic time.** Every iteration of the operation of search cuts the array in half, which is a characteristic of logarithmic algorithms. Conversely, every time you double `n`, the runtime only increases by one step. This is also referred to as a 'Binary Search' and a process of "Divide and Conquer".
 
 For a physical demonstration of this search in action, checkout [CS50 'Tearing up the Phone Book' demo](https://www.youtube.com/watch?v=DSffdCT5Cx4)
 
