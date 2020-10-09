@@ -1,5 +1,7 @@
 # Big-Oh exercises
 
+Pair: Jerrad + Sacha
+
 Data Structures & Algorithms, per: https://courses.thinkful.com/dsa-v1/checkpoint/3#assignment
 
 Big-O Cheet Sheet: https://tf-assets-prod.s3.amazonaws.com/tf-curric/data-science/Thinksheet-BigO.pdf
@@ -7,11 +9,34 @@ Big-O Cheet Sheet: https://tf-assets-prod.s3.amazonaws.com/tf-curric/data-scienc
 To run any of these scripts, in terminal command line enter: `node script-name.js`
 
 
+## 1. What is the Big O for this?
+
+
+
+
+
+## 2. Even or odd
+
+
+
+
+
+## 3. etc
+
+
+
+
+
+
+
 
 
 
 
 <br />
+
+<hr />
+
 
 ## Computational Complexity script examples
 
