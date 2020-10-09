@@ -11,17 +11,24 @@ To run any of these scripts, in terminal command line enter: `node script-name.j
 
 ## 1. What is the Big O for this?
 
+**v1.** **O(1). Constant time.** Performing a `.find()` operation. It requires one action to get a result, regardless of the size of the input (the number of people).
 
-
+**v2.** **O(n). Linear time.** Performing a `for` loop operation. As the number of people increases, the steps increase at the same rate.
 
 
 ## 2. Even or odd
 
+**O(1). Constant time** because the number of operations doesn't change based on the input
 
 
+## 3. Are you here?
 
+**O(n^2). Polynomial time complexity.** Because it's a nested `for` loop. For each `n` element in `arr1` we have to perform `k` operations in `arr2`. 
 
-## 3. etc
+## 4. Doubler
+
+**O(n). Linear time.** We perform one operation per element in the array, so our operations grow at the same rate as the input.
+
 
 
 
