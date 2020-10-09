@@ -3,10 +3,14 @@ function efficientSearch(array, item) {
     let maxIndex = array.length - 1;        // 4
     let currentIndex;                       // 1
     let currentElement;                     // 1
+    let steps = 1; // for tracking number of operations
 
     while (minIndex <= maxIndex) {          // n
         currentIndex = Math.floor((minIndex + maxIndex) / 2);   // 2
         currentElement = array[currentIndex];
+        steps++;
+        
+        console.log('currentIndex: ', currentIndex);
 
         if (currentElement < item) {
             minIndex = currentIndex + 1;
@@ -15,6 +19,7 @@ function efficientSearch(array, item) {
             maxIndex = currentIndex - 1;
         }
         else {
+            console.log('number of steps: ', steps)
             return currentIndex;
         }
     }
@@ -22,13 +27,15 @@ function efficientSearch(array, item) {
 }
 
 
-// T = (1 + 1 + 1 + 1) + n 
+// T = (#) + n + n/2
+// T = n + n/2
+// T = log n ?
 
 
-let arr = [4, 5];
+let arr = arrGenerator(1000);
+let itemToFind = 105;
 
-efficientSearch(arr, itemToFind)
-
+console.log(efficientSearch(arr, itemToFind));
 
 function arrGenerator(num) {
     let arr = [];

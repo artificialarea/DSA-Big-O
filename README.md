@@ -47,7 +47,7 @@ To run any of these scripts, in terminal command line enter: `node script-name.j
 
 ## 8. An efficient search
 
-**O(log n). Logarithmic time.** Every iteration of the operation of search cuts the array in half, which is a characteristic of logarithmic algorithms. Every time you double `n`, the runtime only increase one step.
+**O(log n). Logarithmic time.** Every iteration of the operation of search cuts the array in half, which is a characteristic of logarithmic algorithms. Conversely, every time you double `n`, the runtime only increases by one step.
 
 
 <br />
