@@ -25,19 +25,29 @@ To run any of these scripts, in terminal command line enter: `node script-name.j
 
 **O(n^2). Polynomial time complexity.** Because it's a nested `for` loop. For each `n` element in `arr1` we have to perform `k` operations in `arr2`. 
 
+
 ## 4. Doubler
 
 **O(n). Linear time.** We perform one operation per element in the array, so our operations grow at the same rate as the input.
 
 
+## 5. Naive search
+
+**O(n). Linear time.** Same same. As array grows, number of operations grow in parallel. It's a `for` loop, innit.
 
 
+## 6. Creating pairs
+
+**O(n^2). Polynomial time.** For each `n` element in `i` we have to perform another (`k` operation) in `j`. 
 
 
+## 7. Compute the sequence
 
+**O(n). Linear time.** It's printing out a custom sequence of specific numbers... looking at the numbers -- we console.log'd it -- it appears to be the fibonacci sequence. You take everything inside and you boil it down to what is growning fastest... the `n` of the `for` loop. 
 
+## 8. An efficient search
 
-
+**O(log n). Logarithmic time.** Every iteration of the operation of search cuts the array in half, which is a characteristic of logarithmic algorithms. Every time you double `n`, the runtime only increase one step.
 
 
 <br />
