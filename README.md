@@ -16,38 +16,87 @@ To run any of these scripts, in terminal command line enter: `node script-name.j
 **v2.** **O(n). Linear time.** Performing a `for` loop operation. As the number of people increases, the steps increase at the same rate.
 
 
+
+<br /> 
+
 ## 2. Even or odd
 
 **O(1). Constant time** because the number of operations doesn't change based on the input
 
+
+
+<br /> 
 
 ## 3. Are you here?
 
 **O(n^2). Polynomial time complexity.** Because it's a nested `for` loop. For each `n` element in `arr1` we have to perform `k` operations in `arr2`. 
 
 
+
+<br /> 
+
 ## 4. Doubler
 
 **O(n). Linear time.** We perform one operation per element in the array, so our operations grow at the same rate as the input.
 
+
+
+<br /> 
 
 ## 5. Naive search
 
 **O(n). Linear time.** Same same. As array grows, number of operations grow in parallel. It's a `for` loop, innit.
 
 
+
+<br /> 
+
 ## 6. Creating pairs
 
 **O(n^2). Polynomial time.** For each `n` element in `i` we have to perform another (`k` operation) in `j`. 
 
 
+
+<br /> 
+
 ## 7. Compute the sequence
 
-**O(n). Linear time.** It's printing out a custom sequence of specific numbers... looking at the numbers -- we console.log'd it -- it appears to be the fibonacci sequence. You take everything inside and you boil it down to what is growning fastest... the `n` of the `for` loop. 
+**O(n). Linear time.** You take everything inside and you boil it down to what is growning fastest... the `n` of the `for` loop. It's printing out a custom sequence of specific numbers... looking at the numbers -- we console.log'd it ;P -- it appears to be the fibonacci sequence. 
+
+
+<br /> 
 
 ## 8. An efficient search
 
 **O(log n). Logarithmic time.** Every iteration of the operation of search cuts the array in half, which is a characteristic of logarithmic algorithms. Conversely, every time you double `n`, the runtime only increases by one step.
+
+For a physical demonstration of this search in action, checkout [CS50 'Tearing up the Phone Book' demo](https://www.youtube.com/watch?v=DSffdCT5Cx4)
+
+
+
+<br /> 
+
+## 9. Random element
+
+**O(1). Constant time.** Requires no iteration. Single operation to return an item in an array, with an additoinal randomization operation thrown in.
+
+
+
+<br />
+
+## What Am I?
+
+**O(n). Linear time.** Because there is a `for` loop with variable `n` within the condition, so as the input grows the number of operations performed by the `for` loop grow at the same rate. As to the purpose of the function, it's to identify prime numbers, as the function will return `true` only if two conditions are met: if `n` is a whole number that is only divisible by itself. 
+
+
+
+<br />
+
+## Tower of Hanoi
+
+I have no friggin' idea.
+
+
 
 
 <br />
