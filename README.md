@@ -29,7 +29,7 @@ To run any of these scripts, in terminal command line enter: `node script-name.j
 
 ## 3. Are you here?
 
-**O(n^2). Polynomial time complexity.** Because it's a nested `for` loop. For each `n` element in `arr1` we have to perform `k` operations in `arr2`. 
+**O(n^2). Quadratic (Polynomial) time complexity.** Because it's a nested `for` loop. For each `n` element in `arr1` we have to perform `k` operations in `arr2`. 
 
 
 
@@ -68,7 +68,7 @@ To run any of these scripts, in terminal command line enter: `node script-name.j
 
 ## 8. An efficient search
 
-**O(log n). Logarithmic time.** Every iteration of the operation of search cuts the array in half, which is a characteristic of logarithmic algorithms. Conversely, every time you double `n`, the runtime only increases by one step.
+**O(log n). Logarithmic time.** Every iteration of the operation of search cuts the array in half, which is a characteristic of logarithmic algorithms. Conversely, every time you double `n`, the runtime only increases by one step. This is also referred to as a 'Binary Search', I believe.
 
 For a physical demonstration of this search in action, checkout [CS50 'Tearing up the Phone Book' demo](https://www.youtube.com/watch?v=DSffdCT5Cx4)
 
@@ -104,7 +104,7 @@ I have no friggin' idea.
 <hr />
 
 
-## Computational Complexity script examples
+# Computational Complexity script examples
 
 Aside: [Big-O Classifications chart](https://github.com/mariusbanea/web-developers-toolkit/blob/master/algorithms/big-o-notation/big-o-notation-table-for-interviews.pdf)
 
