@@ -5,8 +5,8 @@ function efficientSearch(array, item) {
     let currentElement;                     // 1
     let steps = 1; // for tracking number of operations
 
-    while (minIndex <= maxIndex) {          // n
-        currentIndex = Math.floor((minIndex + maxIndex) / 2);   // 2
+    while (minIndex <= maxIndex) {          // O(n)
+        currentIndex = Math.floor((minIndex + maxIndex) / 2);   // O(log n)
         currentElement = array[currentIndex];
         steps++;
         
@@ -27,9 +27,25 @@ function efficientSearch(array, item) {
 }
 
 
-// T = (#) + n + n/2
-// T = n + n/2
-// T = log n ?
+// T = (1 + 2 + 4) + 
+// T = O(log n)
+
+
+
+
+/*
+
+Time Complexity Analysis approach:
+1. Number of expressions, line-by-line, considered in isolation from other lines of code.
+2. Math expression, simplify it
+3. Replace numbers for constants (and constants are just 1)
+4. Identify the fastest growing term, typically some form of `n`
+5. Remove the constants from the fastest growing term
+6. Express this in Big O notation
+
+
+
+*/
 
 
 let arr = arrGenerator(1000);
